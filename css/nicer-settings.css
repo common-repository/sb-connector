@@ -1,0 +1,22 @@
+.smart_only_area .well {
+	padding-bottom:0px;
+}
+.smart_only_area fieldset {
+	width:98%;
+}
+.smart_only_area .control-label {
+	font-weight:bold;
+	font-size:13px;
+}
+.smart_only_area .control-label.flat {
+	font-weight:normal;
+}
+.smart_only_area .help-block {
+	font-size:12px;	
+	margin-top:0px !important;
+}
+.smart_only_area .truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

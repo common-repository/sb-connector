@@ -1,0 +1,246 @@
+.c21-start-page {
+  font-family: roboto, helvetica, arial, sans-serif;
+  font-size: 18px;
+}
+.c21-start-page .c21-container {
+  max-width: 1060px;
+  color: #222222;
+}
+.c21-start-page .c21-main {
+  padding: 30px 20px;
+}
+.c21-start-page .c21-left {
+  width: 360px;
+  float: left;
+  padding-bottom: 20px;
+}
+.c21-start-page .c21-logo {
+  padding-top: 0;
+}
+.c21-start-page .c21-video {
+  width: 640px;
+  float: left;
+}
+.c21-start-page .c21-activated {
+  font-weight: normal;
+  font-size: 20px;
+  color: #777777; 
+}
+.c21-start-page .c21-currentDay {
+  width: 305px;
+  background: #fff;
+  text-align: center;
+  border-top: #e8e8e8 solid 2px;
+  border-left: #e8e8e8 solid 2px;
+  padding: 30px 0;
+}
+.c21-start-page .c21-currentDay p {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.c21-start-page .c21-currentDay.c21-ended {
+  margin-top: 58px;
+}
+.c21-start-page .c21-currentDayText {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.c21-start-page .c21-currentDayDay {
+  color: #e16000;
+  font-size: 39px;
+  font-weight: bold;
+}
+.c21-start-page .c21-create {
+  padding-top: 15px;
+  margin: 0;
+}
+.c21-start-page .c21-btn {
+  display: block;
+  width: 307px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  background: #75b800;
+  font-size: 20px;
+  color: #fff;
+  padding: 15px 0;
+  text-decoration: none;
+  -webkit-transition: background-color 100ms ease-out;
+  -moz-transition: background-color 100ms ease-out;
+  -o-transition: background-color 100ms ease-out;
+  transition: background-color 100ms ease-out;
+}
+.c21-start-page .c21-btn:hover {
+  background: #86d300;
+}
+.c21-start-page .c21-content {
+  padding-top: 15px;
+  color: #222222;
+}
+.c21-start-page .c21-content p {
+  line-height: 1.3;
+  padding: 12px 0;
+  font-size: 18px;
+  margin: 0;
+}
+.c21-start-page .c21-content .splash {
+  background: url(images/splash.png) no-repeat -10px bottom;
+  color: #e16000;
+  font-weight: bold;
+}
+.c21_prepared-cta h3 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.c21_prepared-cta .c21_prepared-item {
+  width: 700px;
+  padding-bottom: 20px;
+}
+.c21_image-preview-overlay {
+  position: absolute;
+  display: block;
+  z-index: 9999;
+  background-size: cover !important;
+  width: 254px !important;
+  height: 141px !important;
+  right: 10px;
+  top: 47px;
+}
+.c21-achievements {
+  padding: 40px 0;
+  color: #7f7f7f;
+}
+.c21-achievements .c21-title {
+  background: #e7e7e7;
+  text-align: center;
+  padding: 10px 0;
+  border-top: #dcdcdc solid 1px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.c21-achievements .c21-title h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #bfbfbf;
+  text-shadow: 0px -1px 0px #a4a4a4, 2px 1px 0px #f6f6f6;
+}
+.c21-achievements .star-left {
+  padding-left: 45px;
+  background: url(images/star.png) no-repeat left center;
+}
+.c21-achievements .star-right {
+  padding-right: 45px;
+  background: url(images/star.png) no-repeat right center;
+}
+.c21-achievements .c21-badges-wp {
+  position: relative;
+  z-index: 10;
+}
+.c21-achievements .c21_badge_last {
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+.c21-achievements .c21_badge_last .c21_img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.c21-achievements .c21_badge_last h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+.c21-achievements .c21_badge_last h4 b {
+  font-weight: bold;
+}
+.c21-achievements .c21_badge_last .info {
+  text-align: center;
+  font-size: 14px;
+  color: #b5b5b5;
+}
+.c21-achievements .c21_badge_last .info .icon {
+  background: url(images/info.png) no-repeat 0 center;
+  padding: 0 22px;
+}
+.c21-achievements .c21_badges {
+  float: left;
+  width: 680px;
+  margin-top: -7px;
+  margin-left: 20px;
+  margin-bottom: -40px;
+}
+.c21-achievements .c21_badges-block {
+  padding-bottom: 40px;
+}
+.c21-achievements .c21_badge {
+  float: left;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  margin: 10px 20px;
+  z-index: 100;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.c21-achievements .c21_badge .c21_badge_lock {
+  position: absolute;
+  top: 75px;
+  left: 100px;
+  z-index: 101;
+}
+.c21-achievements .c21_badge.bigger {
+  width: 150px;
+  margin: 10px;
+}
+.c21-achievements .c21_badges_sep {
+  width: 5px;
+  height: 100%;
+  background: #e6e6e6;
+  position: absolute;
+  left: 300px;
+  top: 0;
+  z-index: 51;
+  border-right: #c8c9c9 solid 1px;
+}
+.c21-achievements .c21_badge-lev-title {
+  text-align: center;
+  position: relative;
+  z-index: 60;
+  margin-bottom: 20px;
+}
+.c21-achievements .c21_badge-lev-title h4 {
+  display: inline;
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  z-index: 65;
+  background: #F1F1F1;
+  padding: 0 25px;
+}
+.c21-achievements .c21_badge-lev-title h4 b {
+  font-weight: bold;
+}
+.c21-achievements .c21_badge-lev-title .c21_badge-line {
+  width: 100%;
+  height: 5px;
+  background: #e6e6e6;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  z-index: 61;
+  border-top: #c8c9c9 solid 1px;
+}
